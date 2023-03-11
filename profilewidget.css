@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+	 transition: 0.5s;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  background-color: #5451fa;
+}
+
+.container {
+  width: 350px;
+  height: 600px;
+  margin-top: 90px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.icons {
+  display: flex;
+  justify-content: right;
+}
+
+.search, .bell {
+  width: 35px;
+  height: 35px;
+  margin-left: 15px;
+  border-radius: 50%;
+  background-color: #5451fa;
+}
+
+.green-container {
+  width: 310px;
+  height: 90px;
+  margin: auto;
+  margin-top: 25px;
+  border-radius: 15px;
+  background-image: url('background.png');
+  background-size: 310px auto;
+  background-repeat: no-repeat;
+  background-color: #5451fa;
+}
+
+.avatar {
+  position: relative;
+  z-index: 1;
+  top: -10%;
+  width: 110px;
+  height: 110px;
+  margin: auto;
+  border-radius: 50%;
+  background-color: none;
+  background-image: url('avatar.png');
+  background-size: cover;
+}
+
+.zname {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -60px;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.chckmark {
+   width: 15px;
+  height: 15px;
+  margin-left: 5px;
+  border-radius: 50%;
+  background-color: #5451fa;
+}
+
+p {
+  font-size: 14px;
+  text-align: center;
+  margin-top: -5px;
+  color: #4a4a4a;
+}
+
+.metrics {
+  display: flex;
+  margin-top: -10px;
+  justify-content: center;
+  justify-content: space-between;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+
+i:nth-of-type(2) {
+  color: #5451fa;
+}
+
+span {
+  font-size: 14px;
+  color: #4a4a4a;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  border: 0px;
+  border-radius: 15px;
+  color: #5451fa;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #dcdafe;
+}
+
+button:hover {
+  color: white;
+  background-color: #5451fa;
+}
+
+button:focus-visible {
+    outline: auto 0px;
+}
+
+section {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  padding-left: 20px;
+  flex-direction: column;
+  text-align left;
+  margin-top: 25px;
+}
+
+div.location, div.skills, div.job {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+div.location > p {
+  margin: 0px;
+  margin-left: 5px;
+  display: inline;
+}
+
+.location > p > span {
+  font-weight: bold;
+}
+
+div.job > p {
+  margin: 0px;
+  display: inline;
+  margin-left: 5px;
+}
+
+div.skills > p {
+  margin: 0px;
+  display: inline;
+  margin-left: 5px;
+}

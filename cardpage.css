@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+	 transition: 0.5s;
+}
+
+body {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.container {
+  display: flex;
+  padding50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.ze-card {
+  position: absolute;
+  top: 10%;
+  padding: 20px;
+  background: linear-gradient(0deg, #020d3d 30%, #0b2f73, #278993) ;
+  border: 1px solid #f6f6f6;
+  border-radius: 20px;
+  box-shadow: 0px 0px 2px 3px #f6f6f6;
+  width: 330px;
+  height: 200px;
+  z-index: 1;
+}
+
+.ze-card:hover {
+	/**border: 2px solid #004df3;**/
+	transform: translateY(-1rem) ScaleX(1.02);
+	}
+
+.cc-logo {
+  display: inline-block;
+  margin-right: 134px;
+}
+
+.visa-logo {
+  display: inline-block;
+}
+
+.ze-card > .fourtwo {
+  display: block;
+  width: 100%;
+  margin-top: 20px;  
+  color: white;
+  text-align: center;
+  font-size: 22px;
+}
+
+.lilp {
+  display: flex;
+  margin-top: 20px;
+}
+
+.chol {
+  display: block;
+  width: 100%;
+  color: white;
+  font-size: 22px;
+  margin-right: 40px;
+}
+
+.chol2 {
+  display: block;
+  font-size: 12px;
+  color: #d1d1d1;
+}
+
+.exp11 {
+  display: block;
+  width: 100%;
+  color: white;
+  font-size: 22px;
+  margin-left: 70px;
+}
+
+.exp22 {
+  display: block;
+  font-size: 12px;
+  color: #d1d1d1;
+  margin-left: 70px;
+}
+
+.card-details {
+  display: block;
+  margin-top: 130px;
+  border: 1px solid #f6f6f6;
+  border-radius: 20px;
+  box-shadow: 0px 0px 2px 3px #d1d1d1;
+  padding: 30px;
+  padding-top: 180px;
+  width: 500px;
+  height: 500px;
+  color: #4a4a4a;
+}
+
+form {
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+}
+
+p {
+  display: inline;
+  margin: 0px;
+  width: 50%;
+}
+
+.pi-one {
+  margin-right: 185px;
+}
+
+input {
+  display: ;
+  border: 1px solid #d1d1d1;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  height: 35px;
+  width: 100%;
+}
+
+input:focus-visible {
+    outline: #d1d1d1 auto 1px;
+}
+
+select {
+  display: inline-block;
+  border: 1px solid #d1d1d1;
+  background-color: white;
+  margin-bottom: 20px;
+  height: 30px;
+  width:30%;
+}
+
+select:focus-visible {
+    outline: #d1d1d1 auto 1px;
+}
+
+label.exp-date {
+  display: ;
+  width: 100%;
+}
+
+input.cav {
+  width: 150px;
+  margin-left: 15px;
+}
+
+#submit {
+  margin-bottom: 0px;
+  color: #0072fa;
+  border: 1px solid #0072fa;
+}
+
+#submit:hover {
+  color: white;
+  background-color: #0072fa;
+}
+
+ @media (max-width: 680px)  {
+  .card-details {
+   width: 330px;
+   padding-top: 100px;
+   margin-top: 190px;
+   }
+  
+  .ze-card {
+    top: 5%;
+  }
+ /** 
+ .hiide {
+    display: none;
+  }**/
+  
+  }
+    
